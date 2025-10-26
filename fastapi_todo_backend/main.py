@@ -11,7 +11,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:5173",
-    "https://personal-todo-frontend.onrender.com"
+    "https://mytodo-gr.onrender.com"
 ]
 
 app.add_middleware(
